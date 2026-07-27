@@ -12,6 +12,9 @@ valvar
 control
 calc
 
+# PDF files
+*.pdf
+
 # OS files
 .DS_Store
 Thumbs.db
