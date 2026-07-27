@@ -1,0 +1,17 @@
+# Compiler Design generated files
+lex.yy.c
+*.tab.c
+*.tab.h
+*.output
+
+# Compiled executables
+symtab
+lexer
+art_expr
+valvar
+control
+calc
+
+# OS files
+.DS_Store
+Thumbs.db
