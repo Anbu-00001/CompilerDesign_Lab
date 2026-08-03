@@ -12,6 +12,8 @@ This repository contains the lab experiments for the **Compiler Design** course.
 | 4 | [Variable Name Validator](Exp04_Variable_Validator/) | FLEX + BISON |
 | 5 | [Control Structure Syntax Validator](Exp05_Control_Structure_Validator/) | FLEX + BISON |
 | 6 | [Calculator](Exp06_Calculator/) | FLEX + BISON |
+| 7 | [Intermediate Code Generator](Exp07_Intermediate_Code_Generator/) | FLEX + BISON |
+| 8 | [Type Checker](Exp08_Type_Checker/) | FLEX + BISON |
 
 ## Prerequisites
 
@@ -35,7 +37,7 @@ gcc lex.yy.c -o <output> -lfl
 ./<output> <input_file>
 ```
 
-### FLEX + BISON experiments (Exp 3-6):
+### FLEX + BISON experiments (Exp 3-8):
 ```bash
 flex <file>.l
 bison -d <file>.y

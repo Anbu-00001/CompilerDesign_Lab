@@ -11,6 +11,8 @@ art_expr
 valvar
 control
 calc
+tac
+typecheck
 
 # PDF files
 *.pdf
