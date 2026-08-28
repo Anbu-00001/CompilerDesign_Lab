@@ -14,6 +14,8 @@ This repository contains the lab experiments for the **Compiler Design** course.
 | 6 | [Calculator](Exp06_Calculator/) | FLEX + BISON |
 | 7 | [Intermediate Code Generator](Exp07_Intermediate_Code_Generator/) | FLEX + BISON |
 | 8 | [Type Checker](Exp08_Type_Checker/) | FLEX + BISON |
+| 9 | [Code Optimization](Exp09_Code_Optimization/) | FLEX + BISON |
+| 10 | [Target Code Generator](Exp10_Target_Code_Generator/) | FLEX + BISON |
 
 ## Prerequisites
 
@@ -37,7 +39,7 @@ gcc lex.yy.c -o <output> -lfl
 ./<output> <input_file>
 ```
 
-### FLEX + BISON experiments (Exp 3-8):
+### FLEX + BISON experiments (Exp 3-10):
 ```bash
 flex <file>.l
 bison -d <file>.y

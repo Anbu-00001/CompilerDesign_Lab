@@ -13,6 +13,8 @@ control
 calc
 tac
 typecheck
+optimize
+backend
 
 # PDF files
 *.pdf
